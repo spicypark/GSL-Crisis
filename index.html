@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lora:ital@0;1&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
+  <script src="main.js"></script>
 </head>
 <body>
 
@@ -213,24 +214,6 @@
   <p><strong>The Great Salt Lake is Drying Up</strong> &nbsp;·&nbsp; A school awareness project &nbsp;·&nbsp; SLC, Utah, USA</p>
 </footer>
 
-<script>
-  function showPage(id) {
-    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
-    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
-    const target = id === 'blog1' || id === 'blog2' ? 'blogs' : id;
-    const navEl = document.getElementById('nav-' + target);
-    if (navEl) navEl.classList.add('active');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    return false;
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    document.querySelector('form').style.display = 'none';
-    document.getElementById('submitted').style.display = 'block';
-  }
-</script>
 
 </body>
 </html>
