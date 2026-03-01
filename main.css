@@ -579,3 +579,19 @@ footer a {
 footer a:hover {
   opacity: 1;
 }
+
+.sources-list {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.sources-list a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  color: inherit;
+}
+
+.sources-list a:hover {
+  border-bottom-color: rgba(0,0,0,0.6);
+}
