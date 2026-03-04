@@ -328,7 +328,7 @@ nav {
   text-transform: uppercase;
 }
 
-#blog1, #blog2 { background: var(--salt); }
+#blog1, #blog2, #blog3, #blog4 { background: var(--salt); }
 
 .blog-post-header {
   background: var(--water-deep);
@@ -611,4 +611,12 @@ footer a:hover {
   font-style: italic;
   margin: -1rem 0 2rem;
   letter-spacing: 0.02em;
+}
+
+.blog-video {
+  width: 100%;
+  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 6px 28px rgba(30,61,84,0.12);
+  display: block;
 }
